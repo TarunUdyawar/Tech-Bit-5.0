@@ -1,63 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 .timer {
-    font-family: "Bebas Neue", sans-serif;
-    width: 550px;
-    height: 370px;
-    margin: auto;
-    padding: 20px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  
-  .timer .flipdown {
-    margin: auto;
-    text-align: center;
-  }
-  
-  .timer h1 {
-    text-align: center;
-    font-size: 50px;
-    text-transform: uppercase;
-    color: #e03a2e;
-    margin-bottom: 30px;
-  }
-  
-  .timer .flipdown h2 {
-    text-align: center;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #e03a2e;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  
-  .flipdown.flipdown__theme-dark .rotor-group-heading:before {
-    color: #e03a2e;
-  }
-  
-  .rotor-group-heading {
-    margin-bottom: 10px;
-    font-size: 25px;
-    color: #e03a2e;
-  }
-  
-  .flipdown.flipdown__theme-dark .rotor-bottom, .flipdown.flipdown__theme-dark .rotor-leaf-rear {
-    color: #000;
-    background-color: #e03a2e;
-  }
-  
-  .flipdown.flipdown__theme-dark .rotor, .flipdown.flipdown__theme-dark .rotor-top, .flipdown.flipdown__theme-dark .rotor-leaf-front {
-    color: #000;
-    background-color: #e03a2e;
-  }
-  
-  .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):before, .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-    background-color: #e03a2e;
+  font-family: "Bebas Neue", sans-serif;
+  width: 550px;
+  height: 190px;
+  margin: auto;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.timer .flipdown {
+  margin: auto;
+  text-align: center;
+}
+
+.timer h1 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #e03a2e;
+  margin-bottom: 30px;
+}
+
+.timer .flipdown h2 {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #e03a2e;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flipdown.flipdown__theme-dark .rotor-group-heading:before {
+  color: #e03a2e;
+}
+
+.rotor-group-heading {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #e03a2e;
+}
+
+.flipdown.flipdown__theme-dark .rotor-bottom,
+.flipdown.flipdown__theme-dark .rotor-leaf-rear {
+  color: #000;
+  background-color: #e03a2e;
+}
+
+.flipdown.flipdown__theme-dark .rotor,
+.flipdown.flipdown__theme-dark .rotor-top,
+.flipdown.flipdown__theme-dark .rotor-leaf-front {
+  color: #000;
+  background-color: #e03a2e;
+}
+
+.flipdown.flipdown__theme-dark
+  .rotor-group:nth-child(n + 2):nth-child(-n + 3):before,
+.flipdown.flipdown__theme-dark
+  .rotor-group:nth-child(n + 2):nth-child(-n + 3):after {
+  background-color: #e03a2e;
 }
