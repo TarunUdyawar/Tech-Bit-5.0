@@ -7,7 +7,9 @@ body{
     background-color: #252a34;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
-    overflow-x: hidden;
+}
+#page1{
+  overflow-x: hidden;
 }
 .nav1{
     color: #e03a2e;
@@ -212,8 +214,14 @@ body {
       display: none;
     }
   }
-  .custom-position {
-    left: 520px; /* or any other value */
-    top: 60%; /* or any other value */
-    /* transform: translateY(-70%); optional */
+  #preloader{
+    background: #000 url('preloader.gif') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  iframe{
+    display: none;
   }
