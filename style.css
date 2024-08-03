@@ -17,7 +17,7 @@ body{
     color: white;
 }
 #page1{
-    height: 105vh;
+    height: 120vh;
     width: 100vw;
     background: #252a34;
 }
@@ -62,7 +62,7 @@ body {
     align-items: center; */
     height: 100vh;
     background: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 0));
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Share Tech Mono", monospace;
     font-weight: 400;
     font-style: normal;
     overflow-x: hidden;
@@ -102,7 +102,7 @@ body {
     color: rgb(255, 0, 0);
   }
   .share-tech-mono-regular {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Share Tech Mono", monospace;
     font-weight: 400;
     font-style: normal;
   }
