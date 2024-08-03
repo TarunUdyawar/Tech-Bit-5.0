@@ -212,3 +212,8 @@ body {
       display: none;
     }
   }
+  .custom-position {
+    left: 520px; /* or any other value */
+    top: 60%; /* or any other value */
+    /* transform: translateY(-70%); optional */
+  }
