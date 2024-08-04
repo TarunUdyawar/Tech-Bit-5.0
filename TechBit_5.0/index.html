@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHBIT 5.0</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="timer.css">
+    <link rel="stylesheet" href="flipdown.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="timer.js"></script>
+  </head>
+  <body>
+    <div class="bgAnimation" id="bgAnimation">
+      <div class="backgroundAmim">
+          
+      </div>
+  </div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+    <!-- <div id="preloader"></div> -->
+    <div id="page1">
+
+  <!-- NAVBAR STARTS-->
+    <nav class="navbar navbar-expand-lg static-top">
+        <div class="container-fluid mt-3">
+          <a class="navbar-brand" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 nav1" aria-current="page" href="#">Welcome to Hawkins</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 nav1 " aria-current="page" href="#">The Story</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 nav1" aria-current="page" href="#">Festival Lineup</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 nav1" aria-current="page" href="#">The Gang</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 nav1" aria-current="page" href="#">Friends of Hawkins</a>
+                </li>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- NAVBAR ENDS -->
+  <h2 class="text-center mt-100 position-relative date">31 <span id="date">August 2024</h2></span> <br>
+  <h2 class="text-center slogan">Enter the Upside Down of IT at TechBit—where tech gets strange!</h2>
+  <div class="container">
+    <a href="sample-1.pdf" class="button">
+       <div class="button__content">
+          <span class="button__text">Download the Hawkins Lab Files</span>
+          <i class="ri-download-cloud-fill button__icon"></i>
+
+          <div class="button__reflection-1"></div>
+          <div class="button__reflection-2"></div>
+       </div>
+
+       <img src="star.png" alt="" class="button__star-1">
+       <img src="star.png" alt="" class="button__star-2">
+       <img src="circle.png" alt="" class="button__circle-1">
+       <img src="circle.png" alt="" class="button__circle-2">
+       <img src="diamond.png" alt="" class="button__diamond">
+       <img src="triangle.png" alt="" class="button__triangle">
+       
+       <div class="button__shadow"></div>
+    </a>
+ </div>
+       <!-- KEYBOARD STARTS -->
+      <!-- <div class="table">
+        <div class="keyboard">
+            <!-- Row 1 -->
+           <!--- <div class="key">Esc</div>
+            <div class="key">F1</div>
+            <div class="key">F2</div>
+            <div class="key">F3</div>
+            <div class="key">F4</div>
+            <div class="key">F5</div>
+            <div class="key">F6</div>
+            <div class="key">F7</div>
+            <div class="key">F8</div>
+            <div class="key">F9</div>
+            <div class="key">F10</div>
+            <div class="key">F11</div>
+            <div class="key">F12</div>
+            <!-- Row 2 -->
+            <!-- <div class="key">~</div>
+            <div class="key">1</div>
+            <div class="key">2</div>
+            <div class="key">3</div>
+            <div class="key">4</div>
+            <div class="key">5</div>
+            <div class="key">6</div>
+            <div class="key">7</div>
+            <div class="key">8</div>
+            <div class="key">9</div>
+            <div class="key">0</div>
+            <div class="key">-</div>
+            <div class="key">=</div>
+            <div class="key backspace">BSpace</div> -->
+            <!-- Row 3 -->
+            <!-- <div class="key tab">Tab</div>
+            <div class="key">Q</div>
+            <div class="key">W</div>
+            <div class="key">E</div>
+            <div class="key">R</div>
+            <div class="key">T</div>
+            <div class="key">Y</div>
+            <div class="key">U</div>
+            <div class="key">I</div>
+            <div class="key">O</div>
+            <div class="key">P</div>
+            <div class="key">[</div>
+            <div class="key">]</div>
+            <div class="key slash">\</div> -->
+            <!-- Row 4 -->
+            <!-- <div class="key capslock">Caps</div>
+            <div class="key">A</div>
+            <div class="key">S</div>
+            <div class="key">D</div>
+            <div class="key">F</div>
+            <div class="key">G</div>
+            <div class="key">H</div>
+            <div class="key">J</div>
+            <div class="key">K</div>
+            <div class="key">L</div>
+            <div class="key">;</div>
+            <div class="key">'</div>
+            <div class="key enter">Enter</div> -->
+            <!-- Row 5 -->
+            <!-- <div class="key shift">Shift</div>
+            <div class="key">Z</div>
+            <div class="key">X</div>
+            <div class="key">C</div>
+            <div class="key">V</div>
+            <div class="key">B</div>
+            <div class="key">N</div>
+            <div class="key">M</div>
+            <div class="key">,</div>
+            <div class="key">.</div>
+            <div class="key">/</div>
+            <div class="key shift">Shift</div> -->
+            <!-- Row 6 -->
+            <!-- <div class="key ctrl">Ctrl</div>
+            <div class="key">Fn</div>
+            <div class="key alt">Alt</div>
+            <div class="key space">Space</div>
+            <div class="key alt">Alt</div>
+            <div class="key">Win</div>
+            <div class="key">Menu</div>
+            <div class="key ctrl">Ctrl</div>
+        </div>
+    </div> --> 
+</div>
+
+<!-- KEYBOARD ENDS -->
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --> 
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <!-- COUNTDOWN STARTS -->
+  <body>
+    <div class="timer">
+        <div id="flipdown" class="flipdown position-relative bottom-100 start-40""></div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let timer_ =  1725042600
+            let flipdown = new FlipDown(timer_)
+                .start()
+                .ifEnded(() => {
+                    document.querySelector(".flipdown").innerHTML = `<h2>Timer is ended</h2>`;
+                })
+        })
+    </script>
+    <script>
+
+      var loader=document.getElementById("preloader");
+      window.addEventListener("load", function(){
+        loader.style.display="none";
+      })
+      
+    </script>
+   <!-- COUNTDOWN ENDS -->
+  </div>
+  <div class="page2">
+    <pre><h1>TECHBIT 5.0 EVENTS↓</h1></pre>
+    </div>
+  <div id="page3"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+</body>
+</html>
