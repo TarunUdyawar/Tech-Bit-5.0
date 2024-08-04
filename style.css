@@ -1,19 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+  font-family: myFont;
+  src: url(Stranger\ Things.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
-}
-body{
+    font-family: myFont;
+  }
+  body{
     background-color: #252a34;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 500;
+    overflow-x: hidden;
+    
+}
+h2{
+  
+  color: #DA291C;
 }
 #page1{
   overflow-x: hidden;
 }
 .nav1{
-    color: #e03a2e;
-    font-size: large;
+    color: #DA291C;
+    font-family: myFont;
+    font-size: 25px;
+    font-weight: bolder;
 }
 .nav1:hover{
     color: white;
@@ -21,17 +32,17 @@ body{
 #page1{
     height: 120vh;
     width: 100vw;
-    background: #252a34;
+    background: #000000;
 }
 #page2{
     height: 100vh;
     width: 100vw;
-    background-color: crimson;
+    background-color: #DA291C;
 }
 #page3{
     height: 100vh;
     width: 100vw;
-    background-color: blue;
+    background-color: #DA291C;
 }
 .to-top{
     background: white;
@@ -64,7 +75,7 @@ body {
     align-items: center; */
     height: 100vh;
     background: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 0));
-    font-family: "Share Tech Mono", monospace;
+    font-family: myFont;
     font-weight: 400;
     font-style: normal;
     overflow-x: hidden;
@@ -78,6 +89,8 @@ body {
     max-height: 90%;
     padding: 100px;
     box-sizing: border-box;
+    position: relative;
+    bottom: 100px;
   }
   
   .table {
@@ -86,8 +99,8 @@ body {
   }
   
   .key {
-    color: #252a34;
-    background: #252a34;
+    color: #000000;
+    background: #000000;
     /* border: 2px solid rgb(0, 4, 4); */
     border-radius: 5px;
     font-size: 30px;
@@ -214,6 +227,8 @@ body {
       display: none;
     }
   }
+ 
+
   #preloader{
     background: #000 url('preloader.gif') no-repeat center center;
     background-size: cover;
@@ -225,3 +240,93 @@ body {
   iframe{
     display: none;
   }
+  .date{
+    z-index: 1;
+    position: relative;
+    top: 30%;
+  }
+  .slogan{
+    z-index: 1;
+    position: relative;
+    top:32%;
+  }
+  #date{
+    color: #7DF9FF;
+  }
+  .bgAnimation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+    background: #1d1d1d;
+    filter: saturate(2);
+    overflow: hidden;
+}
+
+.colorBox{
+    z-index: 2;
+    filter: brightness(1.1);
+    transition: 2s ease;
+    position: relative;
+    margin: 2px;
+    background: transparent;
+}
+
+.colorBox:hover{
+    background: #DA291C;
+    transition-duration: 0s;
+}
+
+.backgroundAmim{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    filter: blur(60px);
+    animation: animBack 6s linear infinite;
+}
+
+@keyframes animBack {
+    0%{
+        top: -60px;
+    }
+    100%{
+        top: 120%;
+    }
+}
+@keyframes animBack {
+  0% {
+    box-shadow: 0 0 50px blue;
+  }
+  25% {
+    box-shadow: 0 0 50px cyan;
+  }
+  50% {
+    box-shadow: 0 0 50px green;
+  }
+  75% {
+    box-shadow: 0 0 50px yellow;
+  }
+  100% {
+    box-shadow: 0 0 50px red;
+  }
+}
+/* .circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background-color: black;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999;
+} */
+.b1{
+  position: absolute;
+ }

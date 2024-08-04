@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+  font-family: myFont;
+  src: url(Stranger\ Things.ttf);
+}
 .timer {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: myFont;
     width: 550px;
     height: 370px;
     margin: auto;

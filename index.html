@@ -9,11 +9,38 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="timer.css">
     <link rel="stylesheet" href="flipdown.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="timer.js"></script>
   </head>
   <body>
-    <div id="preloader"></div>
+    <div class="bgAnimation" id="bgAnimation">
+      <div class="backgroundAmim">
+          
+      </div>
+  </div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+    <!-- <div id="preloader"></div> -->
     <div id="page1">
+
   <!-- NAVBAR STARTS-->
     <nav class="navbar navbar-expand-lg static-top">
         <div class="container-fluid mt-3">
@@ -27,34 +54,38 @@
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link mx-lg-2 nav1" aria-current="page" href="#">Home</a>
+                  <a class="nav-link mx-lg-2 nav1" aria-current="page" href="#">Welcome to Hawkins</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link mx-lg-2 nav1 " aria-current="page" href="#">About</a>
+                  <a class="nav-link mx-lg-2 nav1 " aria-current="page" href="#">The Story</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link mx-lg-2 nav1" aria-current="page" href="#">Events Games</a>
+                  <a class="nav-link mx-lg-2 nav1" aria-current="page" href="#">Festival Lineup</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link mx-lg-2 nav1" aria-current="page" href="#">Team</a>
+                  <a class="nav-link mx-lg-2 nav1" aria-current="page" href="#">The Gang</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link mx-lg-2 nav1" aria-current="page" href="#">Sponsors</a>
+                  <a class="nav-link mx-lg-2 nav1" aria-current="page" href="#">Friends of Hawkins</a>
                 </li>
 
             </div>
           </div>
         </div>
       </nav>
+      
       <!-- NAVBAR ENDS -->
-  
+  <h2 class="text-center mt-100 position-relative date">31 <span id="date">August 2024</h2></span> <br>
+  <h2 class="text-center slogan">Enter the Upside Down of IT at TechBit—where tech gets strange!</h2>
+  <div class="position-absolute top-150 start-50 translate-middle-x">
+  <button type="button" class="btn btn-primary b1 ">Primary</button></div>
        <!-- KEYBOARD STARTS -->
-      <div class="table">
+      <!-- <div class="table">
         <div class="keyboard">
             <!-- Row 1 -->
-            <div class="key">Esc</div>
+           <!--- <div class="key">Esc</div>
             <div class="key">F1</div>
             <div class="key">F2</div>
             <div class="key">F3</div>
@@ -68,7 +99,7 @@
             <div class="key">F11</div>
             <div class="key">F12</div>
             <!-- Row 2 -->
-            <div class="key">~</div>
+            <!-- <div class="key">~</div>
             <div class="key">1</div>
             <div class="key">2</div>
             <div class="key">3</div>
@@ -81,9 +112,9 @@
             <div class="key">0</div>
             <div class="key">-</div>
             <div class="key">=</div>
-            <div class="key backspace">BSpace</div>
+            <div class="key backspace">BSpace</div> -->
             <!-- Row 3 -->
-            <div class="key tab">Tab</div>
+            <!-- <div class="key tab">Tab</div>
             <div class="key">Q</div>
             <div class="key">W</div>
             <div class="key">E</div>
@@ -96,9 +127,9 @@
             <div class="key">P</div>
             <div class="key">[</div>
             <div class="key">]</div>
-            <div class="key slash">\</div>
+            <div class="key slash">\</div> -->
             <!-- Row 4 -->
-            <div class="key capslock">Caps</div>
+            <!-- <div class="key capslock">Caps</div>
             <div class="key">A</div>
             <div class="key">S</div>
             <div class="key">D</div>
@@ -110,9 +141,9 @@
             <div class="key">L</div>
             <div class="key">;</div>
             <div class="key">'</div>
-            <div class="key enter">Enter</div>
+            <div class="key enter">Enter</div> -->
             <!-- Row 5 -->
-            <div class="key shift">Shift</div>
+            <!-- <div class="key shift">Shift</div>
             <div class="key">Z</div>
             <div class="key">X</div>
             <div class="key">C</div>
@@ -123,9 +154,9 @@
             <div class="key">,</div>
             <div class="key">.</div>
             <div class="key">/</div>
-            <div class="key shift">Shift</div>
+            <div class="key shift">Shift</div> -->
             <!-- Row 6 -->
-            <div class="key ctrl">Ctrl</div>
+            <!-- <div class="key ctrl">Ctrl</div>
             <div class="key">Fn</div>
             <div class="key alt">Alt</div>
             <div class="key space">Space</div>
@@ -134,11 +165,11 @@
             <div class="key">Menu</div>
             <div class="key ctrl">Ctrl</div>
         </div>
-    </div>
+    </div> --> 
 </div>
 
 <!-- KEYBOARD ENDS -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -158,8 +189,8 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --> 
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/6czTSASgzzY?si=rFUMrpJEPgJYBRH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   <!-- COUNTDOWN STARTS -->
   <body>
@@ -177,6 +208,7 @@
         })
     </script>
     <script>
+
       var loader=document.getElementById("preloader");
       window.addEventListener("load", function(){
         loader.style.display="none";
