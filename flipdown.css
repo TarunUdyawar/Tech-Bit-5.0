@@ -216,8 +216,7 @@
       height: 70px;
     }
   #flipdown{
-    margin-right: 175px;
-    margin-top: -180px;
+    margin-top: -106px;
   }
     .flipdown .rotor {
       font-size: 2.2rem;
@@ -291,6 +290,7 @@
     }
   #flipdown{
     margin-right: 175px;
-    margin-top: -35px;
+    margin-top: -15px;
   }
+  
 }

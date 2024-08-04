@@ -4,7 +4,7 @@
 }
 .timer {
     font-family: myFont;
-    width: 550px;
+    width: 100VW;
     height: 370px;
     margin: auto;
     padding: 20px;
