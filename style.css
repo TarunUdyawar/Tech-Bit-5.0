@@ -23,12 +23,9 @@
     
 }
 h2{
-  
   color: #DA291C;
 }
-#page1{
-  overflow-x: hidden;
-}
+
 .nav1{
     color: #DA291C;
     font-family: myFont;
@@ -82,7 +79,6 @@ body {
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    height: 100vh;
     background: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 0));
     font-family: myFont;
     font-weight: 400;
@@ -213,6 +209,7 @@ body {
     .timer{
       width: 565px;
       height: 255px;
+     
     }
     nav1{
       background-color: #000;
@@ -359,6 +356,8 @@ a{
   margin-inline: 1.5rem;
   display: grid;
   place-items: center;
+  position: relative;
+  top:20px;
 }
 
 .button {

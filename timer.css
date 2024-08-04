@@ -5,11 +5,11 @@
 .timer {
     font-family: myFont;
     width: 100VW;
-    height: 370px;
     margin: auto;
     padding: 20px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    position: relative;
+    bottom: 315px;
+    height: 0px;
   }
   
   .timer .flipdown {
