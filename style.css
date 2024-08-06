@@ -18,32 +18,37 @@
     font-family: myFont;
   }
   body{
-    background-color: #252a34;
     overflow-x: hidden;
     
 }
 h2{
   color: #DA291C;
 }
-
+.h2{
+  color: white;
+  position: relative;
+  right: 65vh;
+  font-size: 40px;
+}
 .nav1{
     color: #DA291C;
     font-family: myFont;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 .nav1:hover{
     color: white;
 }
 #page1{
-    height: 120vh;
-    width: 100vw;
-    background: #000000;
-}
-#page2{
     height: 100vh;
     width: 100vw;
-    background-color: #DA291C;
+  }
+  #page2{
+    height: 100vh;
+    width: 100vw;
+    background: #000000;
+    position: relative;
+    bottom: 60px;
 }
 #page3{
     height: 100vh;
@@ -264,15 +269,17 @@ body {
   .date{
     z-index: 1;
     position: relative;
-    top: 30%;
+    top: 42%;
   }
   .slogan{
     z-index: 1;
     position: relative;
-    top:32%;
+    top:42%;
+    font-size: 25px;
   }
   #date{
-    color: #7DF9FF;
+    font-size: 25px;
+    color: white;
   }
   .bgAnimation{
     position: absolute;
@@ -352,7 +359,7 @@ a{
   text-decoration: none;
 }
 .container {
-  height: 100vh;
+  height: 110vh;
   margin-inline: 1.5rem;
   display: grid;
   place-items: center;
@@ -613,4 +620,23 @@ a{
   filter: brightness(10);
   position: relative;
   top: -8px;;
+}
+.logo{
+  position: relative;
+  z-index: 1;
+  height: 50vh;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#642bff,#ff22ef);
+  border-radius: 10px;
+}
+.about{
+  display: flex;
+  align-items: center;
 }

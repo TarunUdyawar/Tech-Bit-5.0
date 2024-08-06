@@ -1,15 +1,15 @@
-gsap.to(".page2 h1",{
-    transform:"translateX(-450%)",
-    scrollTrigger:{
-        trigger:".page2 h1",
-        scroller:"body",
-        // markers:true,
-        start:"top 0%",
-        end:"top -100%",
-        scrub:2,
-        pin:true,
-    }
-})
+// gsap.to(".page2 h1",{
+//     transform:"translateX(-450%)",
+//     scrollTrigger:{
+//         trigger:".page2 h1",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 0%",
+//         end:"top -100%",
+//         scrub:2,
+//         pin:true,
+//     }
+// })
 const bgAnimation = document.getElementById('bgAnimation');
 
 const numberOfColorBoxes = 400;
@@ -82,3 +82,15 @@ function animateCircles() {
 }
 
 animateCircles();
+var loader=document.getElementById("preloader");
+window.addEventListener("load", function(){
+  loader.style.display="none";
+})
+document.addEventListener('DOMContentLoaded', () => {
+  let timer_ =  1725042600
+  let flipdown = new FlipDown(timer_)
+      .start()
+      .ifEnded(() => {
+          document.querySelector(".flipdown").innerHTML = `<h2>Timer is ended</h2>`;
+      })
+})
