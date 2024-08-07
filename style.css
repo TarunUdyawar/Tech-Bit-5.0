@@ -47,9 +47,7 @@ h2{
     height: 100vh;
     width: 100vw;
     background: #000000;
-    position: relative;
-    bottom: 60px;
-}
+  }
 #page3{
     height: 100vh;
     width: 100vw;
@@ -636,7 +634,11 @@ a{
   background: linear-gradient(#642bff,#ff22ef);
   border-radius: 10px;
 }
-.about{
-  display: flex;
-  align-items: center;
+.about-desc{
+  font-size: larger;
+  position: relative;
+  bottom: 90px;
+  color: white;
+}
+.desc{
 }
