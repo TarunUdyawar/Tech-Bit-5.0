@@ -1,15 +1,3 @@
-// gsap.to(".page2 h1",{
-//     transform:"translateX(-450%)",
-//     scrollTrigger:{
-//         trigger:".page2 h1",
-//         scroller:"body",
-//         // markers:true,
-//         start:"top 0%",
-//         end:"top -100%",
-//         scrub:2,
-//         pin:true,
-//     }
-// })
 const bgAnimation = document.getElementById('bgAnimation');
 
 const numberOfColorBoxes = 400;
@@ -59,33 +47,8 @@ window.addEventListener("mousemove", function(e){
   
 });
 
-function animateCircles() {
-  
-  let x = coords.x;
-  let y = coords.y;
-  
-  circles.forEach(function (circle, index) {
-    circle.style.left = x - 12 + "px";
-    circle.style.top = y - 12 + "px";
-    
-    circle.style.scale = (circles.length - index) / circles.length;
-    
-    circle.x = x;
-    circle.y = y;
 
-    const nextCircle = circles[index + 1] || circles[0];
-    x += (nextCircle.x - x) * 0.3;
-    y += (nextCircle.y - y) * 0.3;
-  });
- 
-  requestAnimationFrame(animateCircles);
-}
 
-animateCircles();
-var loader=document.getElementById("preloader");
-window.addEventListener("load", function(){
-  loader.style.display="none";
-})
 document.addEventListener('DOMContentLoaded', () => {
   let timer_ =  1725042600
   let flipdown = new FlipDown(timer_)
@@ -94,3 +57,56 @@ document.addEventListener('DOMContentLoaded', () => {
           document.querySelector(".flipdown").innerHTML = `<h2>Timer is ended</h2>`;
       })
 })
+
+document.addEventListener("DOMContentLoaded", function() {
+  const preloaderTime = 5000;
+
+  setTimeout(function() {
+    document.getElementById('preloader').style.display = 'none';
+    document.getElementById('content').style.display = 'block';
+  }, preloaderTime);
+});
+
+    
+        $('.team-members').slick({
+            slidesToShow: 3,
+            speed: 300,
+            prevArrow:'#left-arrow',
+            nextArrow:'#right-arrow',
+            centerPadding: '60px',
+            responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 760,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }]});
+ 
+function myFunction() {
+  var x = document.getElementById("bottom");
+  var y = document.getElementById("button-24");
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "none";
+  }
+}
+    
