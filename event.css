@@ -1,0 +1,16 @@
+.main{
+    height: 100vh;
+  }
+  #t1{
+    color: #da291c;
+  }
+  .typing{
+    height: 180vh;
+  }
+  .desc{
+    color: #da291c;
+    font-size: 30px;
+  }
+  .main{
+    color: white;
+  }

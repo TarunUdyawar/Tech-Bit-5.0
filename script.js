@@ -50,7 +50,7 @@ window.addEventListener("mousemove", function(e){
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  let timer_ =  1725042600
+  let timer_ =  1726295400
   let flipdown = new FlipDown(timer_)
       .start()
       .ifEnded(() => {

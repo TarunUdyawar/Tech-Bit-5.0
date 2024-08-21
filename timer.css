@@ -19,7 +19,7 @@
   
   .timer h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 10px;
     text-transform: uppercase;
     color: #e03a2e;
     margin-bottom: 30px;
@@ -27,7 +27,7 @@
   
   .timer .flipdown h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 10px;
     text-transform: uppercase;
     color: #e03a2e;
     -webkit-box-pack: center;
@@ -47,7 +47,7 @@
   
   .rotor-group-heading {
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 20px;
     color: #e03a2e;
   }
   
