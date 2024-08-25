@@ -17,10 +17,12 @@
   padding: 0;
   font-family: myFont;
   scroll-behavior: smooth;
+
 }
 body {
+
   overflow-x: hidden;
-  overflow-x: hidden;
+  
 }
 h2 {
   color: #da291c;
@@ -42,6 +44,7 @@ h2 {
 #page1 {
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
 }
 #page2 {
   height: 100vh;
@@ -49,7 +52,7 @@ h2 {
   background: #000000;
 }
 #page3 {
-  height: 100%;
+  height: 200vh;
   width: 100vw;
   background-color: #000000;
 }
@@ -181,7 +184,7 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(20, 1fr);
@@ -774,7 +777,6 @@ ul li a {
 .team-img {
   width: 80%;
   height: 100%;
-  border-radius: 5rem;
 }
 @media (max-width: 500px) {
   .outer-container {
@@ -814,10 +816,15 @@ ul li a {
   margin-left: 0px;
   text-align: center;
 }
-
+.desc1{
+  color: #da291c;
+}
+iframe{
+  display: none;
+}
 .button-24 {
-  background: #007bff;
-  border: 1px solid #007bff;
+  background: #da291c;
+  border: 1px solid #da291c;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
@@ -839,6 +846,9 @@ ul li a {
   vertical-align: middle;
   position: relative;
   bottom: 156px;
+}
+#button-24{
+  background-color: #da291c;
 }
 .inner-container {
   max-width: 1320px;
@@ -894,7 +904,7 @@ ul li a {
   max-height: 350px;
   max-width: 300px;
   border-radius: 26px;
-  margin: 0 12px;
+  margin: 75px 12px;
   overflow: hidden;
   transition: 0.7s;
 }
@@ -1107,28 +1117,28 @@ iframe {
 .slider {
   width: 40%;
   height: 350px;
-  background-image: url(logo1-removebg-preview.png);
+  background-image: url(techbit4.0.mp4);
   background-size: 100% 100%;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  animation: changeImage 20s linear infinite;
+  animation: changeImage 6s linear infinite;
   position: relative;
   left: 30%;
 }
 @keyframes changeImage {
   0% {
-    background-image: url(logo.jpg);
+    background-image: url(1.JPG);
   }
   25% {
-    background-image: url(logo1-removebg-preview.png);
+    background-image: url(2.JPG);
   }
   50% {
-    background-image: url(logo.jpg);
+    background-image: url(3.JPG);
   }
   75% {
-    background-image: url(logo1-removebg-preview.png);
+    background-image: url(6.JPG);
   }
   100% {
-    background-image: url(logo.jpg);
+    background-image: url(5.JPG);
   }
 }
 
@@ -1368,6 +1378,10 @@ footer .container3 {
   top: 105px;
   height: 237px;
 }
+.slider{
+  width: 100vw;
+  left: 0;
+}
 .py-20{
   position: relative;
   top: 125px;
@@ -1377,8 +1391,9 @@ footer .container3 {
   top: -104px;
 }
 #page3{
+  height: 100%;
   position: relative;
-    top: 546px;
+  top: 602px;
 }
 .container{
   position: relative;
@@ -1408,4 +1423,68 @@ margin-bottom: 28px;
     margin-top: 17px;
     margin-left: -183px;
   }
+  .slider{
+    width: 100vw;
+    left: 0;
+  }
+  .py-36{
+    padding-top: 14rem;
+  }
 }
+@media (min-width: 600px) and (max-width: 1024px) {
+
+  .logo2{
+   position: relative;
+   left: 280px;
+   top: 251px;
+  }
+  #page h2{
+    position: relative;
+    right: 242px;
+
+  }
+  #date1{
+  position: relative;
+  top: 208px;
+  right: -20px;
+  }
+  .slogan{
+    top: 212px;
+  }
+  .timer{
+    position: relative;
+    bottom: 232px;
+  }
+  .h2{
+    position: relative;
+    right: 20vh;
+  }
+  .i{
+    position: relative;
+    left: 218px;
+  }
+  #page3{
+    position: relative;
+    top: 225px;
+  }
+  .container{
+    position: relative;
+    left: -3px;
+  }
+  .responsive-container-block{
+    margin-top: -100px;
+  }
+  .slider{
+    left: 0;
+    width: 100vw;
+    height: 595px;
+  }
+  #lastyear{
+    height: 85vh;
+  }
+  body{
+   width: 100vw;
+  }
+}
+
+   
